@@ -32,5 +32,4 @@ class String
 # print elements
 
   end
-  new_array
 end
