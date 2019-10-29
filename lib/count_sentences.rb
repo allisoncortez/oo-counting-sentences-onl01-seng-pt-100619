@@ -19,8 +19,6 @@ class String
     #2. count the number of elements (that result from that string)
     #remember: consider edge cases.. (this includes commas or extra punctuation)
 
-# string.scan(/[^\.!?]+[\.!?]/).map(&:strip).count # scan has regex to split string and strip will remove trailing spaces.
-# # => 4 
     
     self.scan(/[^\.!?]+[\.!?]/).count 
     
