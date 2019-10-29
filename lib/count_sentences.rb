@@ -24,7 +24,7 @@ class String
 
     # new_array = count_sentences.split(/[^\.!?] + [\.!?]/)
     
-     count_sentences.split([\.\!\?])
+     count_sentences.split( [ \.!? ] )
     
     
 # Remove empty elements from the array.
