@@ -22,7 +22,7 @@ class String
 # string.scan(/[^\.!?]+[\.!?]/).map(&:strip).count # scan has regex to split string and strip will remove trailing spaces.
 # # => 4 
     
-    self.split(/[^\.!?]+[\.!?]/)
+    self.split(/[^\.!?]+[\.!?]/).count 
     
     
 # Remove empty elements from the array.
