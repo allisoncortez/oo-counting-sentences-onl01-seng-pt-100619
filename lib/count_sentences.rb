@@ -24,12 +24,14 @@ class String
 
     # new_array = count_sentences.split(/[^\.!?] + [\.!?]/)
     
-     new_array = count_sentences.split(/(.)\s+/)
+     new_array = count_sentences.split[^\.\!\?]*[\.\!\?]
     
     
 # Remove empty elements from the array.
 # elements.delete_if{|e| e.length == 0}
 # print elements
+
+new_array
 
   end
 end
