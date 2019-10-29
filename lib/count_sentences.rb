@@ -22,6 +22,8 @@ class String
 # string.scan(/[^\.!?]+[\.!?]/).map(&:strip).count # scan has regex to split string and strip will remove trailing spaces.
 # # => 4 
     
+    string.scan(/[^\.!?]+[\.!?]/).count 
+    
     
 # Remove empty elements from the array.
 # elements.delete_if{|e| e.length == 0}
